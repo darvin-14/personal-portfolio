@@ -1,0 +1,386 @@
+/* General Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #f4f4f4;
+
+    color: #333;
+
+    line-height: 1.6;
+
+}
+
+
+
+
+
+
+
+/* Navigation */
+
+
+header {
+
+    background-color: #111;
+
+    color: white;
+
+    padding: 20px;
+
+}
+
+
+
+nav {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    max-width: 1100px;
+
+    margin: auto;
+
+}
+
+
+
+nav h2 {
+
+    font-size: 28px;
+
+}
+
+
+
+nav ul {
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 25px;
+
+}
+
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+}
+
+
+
+nav a:hover {
+
+    color: #00adb5;
+
+}
+
+
+
+
+
+
+
+/* Hero Section */
+
+
+.hero {
+
+    height: 90vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #222;
+
+    color: white;
+
+}
+
+
+
+.hero h1 {
+
+    font-size: 50px;
+
+}
+
+
+
+.hero h3 {
+
+    font-size: 28px;
+
+    margin: 15px;
+
+}
+
+
+
+.hero p {
+
+    max-width: 600px;
+
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+button {
+
+
+    margin-top: 25px;
+
+    padding: 12px 30px;
+
+    border: none;
+
+    background-color: #00adb5;
+
+    color:white;
+
+    font-size:18px;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+
+}
+
+
+
+button:hover {
+
+    background-color:#007f86;
+
+}
+
+
+
+
+
+
+
+/* Sections */
+
+
+section {
+
+    max-width:1100px;
+
+    margin:auto;
+
+    padding:60px 20px;
+
+
+}
+
+
+
+section h2 {
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    font-size:35px;
+
+}
+
+
+
+
+
+
+
+/* Skills */
+
+
+#skills div {
+
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+
+    gap:20px;
+
+
+}
+
+
+
+#skills p {
+
+
+    background:white;
+
+    padding:20px;
+
+    text-align:center;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+
+}
+
+
+
+
+
+
+
+/* Projects */
+
+
+#projects div {
+
+
+    background:white;
+
+    padding:25px;
+
+    margin:20px 0;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+
+}
+
+
+
+#projects h3 {
+
+    color:#00adb5;
+
+}
+
+
+
+
+
+
+
+/* Contact */
+
+
+#contact {
+
+    text-align:center;
+
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+footer {
+
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+
+}
+
+
+
+
+
+
+
+/* Mobile Design */
+
+
+@media(max-width:700px){
+
+
+nav {
+
+    flex-direction:column;
+
+}
+
+
+nav ul {
+
+    margin-top:20px;
+
+    flex-direction:column;
+
+}
+
+
+.hero h1 {
+
+    font-size:35px;
+
+}
+
+/* Dark Mode */
+
+.dark-mode {
+    background-color: #111;
+    color: white;
+}
+
+.dark-mode #skills p,
+.dark-mode #projects div {
+    background-color: #222;
+    color: white;
+}
+}
