@@ -399,4 +399,20 @@ nav ul {
 
     border: 3px solid #00adb5;
 }
+
+
+
+.project-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #00adb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-btn:hover {
+    background: #007f86;
+}
 }
