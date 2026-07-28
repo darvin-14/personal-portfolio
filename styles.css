@@ -502,3 +502,20 @@ nav ul {
     background-color: #1d4ed8;
     transform: translateY(-2px);
 }
+
+.cv-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #00adb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cv-btn:hover {
+    background-color: #007f86;
+    transform: translateY(-2px);
+}
